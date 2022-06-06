@@ -13,7 +13,6 @@ function capitalize(str) {
     let word = oldArray[i];
 
     newArray.push(word[0].toUpperCase() + word.slice(1).toLowerCase());
-    console.log(newArray);
   }
   return newArray.join(" ");
 }
